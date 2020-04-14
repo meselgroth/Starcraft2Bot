@@ -14,9 +14,14 @@ namespace bot
         {
             _webSocketWrapper = new WebSocketWrapper();
             await _webSocketWrapper.ConnectWebSocket();
+            
             var gameStarter = new GameStarter(_webSocketWrapper);
             await gameStarter.CreateGame();
             await gameStarter.JoinGame(Race.Terran);
+
+            var game = new Game(_webSocketWrapper);
+            await game.Run();
+            Console.ReadLine();
         }
     }
 }
