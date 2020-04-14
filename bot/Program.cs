@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Diagnostics;
 using Google.Protobuf;
 using System.IO;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Grpc.Net.Client;
 using SC2APIProtocol;
 
-namespace code
+namespace bot
 {
     class Program
     {
@@ -31,18 +29,18 @@ namespace code
             var sendBuf = new byte[1024 * 1024];
             var outStream = new CodedOutputStream(sendBuf);
             request.WriteTo(outStream);
-            using (CancellationTokenSource cancellationSource = new CancellationTokenSource())
-            {
-                cancellationSource.CancelAfter(5000);
-                await clientSocket.SendAsync(new ArraySegment<byte>(sendBuf, 0, (int)outStream.Position),
-                    WebSocketMessageType.Binary, true, cancellationSource.Token);
-            }
+            using CancellationTokenSource cancellationSource = new CancellationTokenSource();
+            cancellationSource.CancelAfter(5000);
+            await clientSocket.SendAsync(new ArraySegment<byte>(sendBuf, 0, (int)outStream.Position),
+                WebSocketMessageType.Binary, true, cancellationSource.Token);
         }
 
         async static Task CreateGame()
         {
-            var createGame = new RequestCreateGame();
-            createGame.Realtime = false;
+            var createGame = new RequestCreateGame
+            {
+                Realtime = false
+            };
 
             var mapPath = Path.Combine(@"C:\Program Files (x86)\StarCraft II\Maps", "AcropolisLE.SC2Map");
 
