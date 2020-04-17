@@ -5,21 +5,23 @@ namespace bot
 {
     public class Game
     {
-        private readonly WebSocketWrapper webSocketWrapper;
-        private bool surrender;
+        private readonly IWebSocketWrapper _webSocketWrapper;
+        private readonly IConnectionService _connectionService;
+        private bool _surrender;
 
-        public Game(WebSocketWrapper webSocketWrapper)
+        public Game(IWebSocketWrapper webSocketWrapper, IConnectionService connectionService)
         {
-            surrender = false;
-            this.webSocketWrapper = webSocketWrapper;
+            _surrender = false;
+            _webSocketWrapper = webSocketWrapper;
+            _connectionService = connectionService;
         }
 
         public async Task Run()
         {
             var receiverTask = Receiver();
-            while (surrender != true)
+            while (_surrender != true)
             {
-                await webSocketWrapper.SendRequestAsync(new Request { Observation = new RequestObservation()});
+                await _connectionService.SendRequestAsync(new Request { Observation = new RequestObservation()});
                 await Task.Delay(500);
             }
 
@@ -31,7 +33,11 @@ namespace bot
             Response response;
             do
             {
-                response = await webSocketWrapper.ReceiveRequestAsync();
+                response = await _connectionService.ReceiveRequestAsync();
+                if (response.HasObservation)
+                {
+                    //response.Observation.Observation.PlayerCommon.FoodUsed;
+                }
             } while (response.Status != Status.Ended || response.Status != Status.Quit);
         }
     }

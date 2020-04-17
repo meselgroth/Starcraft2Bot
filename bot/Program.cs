@@ -8,18 +8,17 @@ namespace bot
     {
         private static WebSocketWrapper _webSocketWrapper;
 
-        // pushd 'C:\Program Files (x86)\StarCraft II\Support64\'   
-        // & 'C:\Program Files (x86)\StarCraft II\Versions\Base78285\SC2_x64.exe' -listen 127.0.0.1 -port 5678 
         static async Task Main(string[] args)
         {
             _webSocketWrapper = new WebSocketWrapper();
             await _webSocketWrapper.ConnectWebSocket();
-            
-            var gameStarter = new GameStarter(_webSocketWrapper);
+            var connectionService = new ConnectionService(_webSocketWrapper);
+
+            var gameStarter = new GameStarter(connectionService);
             await gameStarter.CreateGame();
             await gameStarter.JoinGame(Race.Terran);
 
-            var game = new Game(_webSocketWrapper);
+            var game = new Game(_webSocketWrapper, connectionService);
             await game.Run();
             Console.ReadLine();
         }

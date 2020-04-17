@@ -24,57 +24,21 @@ namespace bot
             Console.WriteLine("Connected");
         }
 
-        public async Task SendRequestAsync(Request request)
+        public async Task SendAsync(Request request, CancellationToken cancellationToken)
         {
             var sendBuf = new byte[1024 * 1024];
             var outStream = new CodedOutputStream(sendBuf);
             request.WriteTo(outStream);
-
-            using var cancellationSource = new CancellationTokenSource();
-            //cancellationSource.CancelAfter(2000);
-
+            
             await _clientSocket.SendAsync(new ArraySegment<byte>(sendBuf, 0, (int)outStream.Position),
-                WebSocketMessageType.Binary, true, cancellationSource.Token);
+                WebSocketMessageType.Binary, true, cancellationToken);
         }
 
-        public async Task<Response> ReceiveRequestAsync()
+        public async Task<WebSocketReceiveResult> ReceiveAsync(ArraySegment<byte> arraySegment,
+            CancellationToken cancellationToken)
         {
-            var receiveBuf = new byte[1024 * 1024];
-            var finished = false;
-            var curPos = 0;
-            while (!finished)
-            {
-                using var cancellationSource = new CancellationTokenSource();
-                var left = receiveBuf.Length - curPos;
-                if (left < 0)
-                {
-                    // No space left in the array, enlarge the array by doubling its size.
-                    var temp = new byte[receiveBuf.Length * 2];
-                    Array.Copy(receiveBuf, temp, receiveBuf.Length);
-                    receiveBuf = temp;
-                    left = receiveBuf.Length - curPos;
-                }
+                return await _clientSocket.ReceiveAsync(arraySegment, cancellationToken);
 
-                //cancellationSource.CancelAfter(5000);
-                var result = await _clientSocket.ReceiveAsync(new ArraySegment<byte>(receiveBuf, curPos, left), cancellationSource.Token);
-                if (result.MessageType != WebSocketMessageType.Binary)
-                    throw new Exception("Expected Binary message type.");
-
-                curPos += result.Count;
-                finished = result.EndOfMessage;
-            }
-
-            var response = Response.Parser.ParseFrom(new MemoryStream(receiveBuf, 0, curPos));
-            Console.WriteLine($"Received response, Case:{response.ResponseCase}, Status{response.Status}");
-
-            if (response.Error.Count <= 0) return response;
-            Console.WriteLine("Response errors:");
-            foreach (var error in response.Error)
-            {
-                Console.WriteLine(error);
-            }
-
-            return response;
         }
     }
 }

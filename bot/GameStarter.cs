@@ -7,11 +7,11 @@ namespace bot
 {
     public class GameStarter
     {
-        private readonly IWebSocketWrapper webSocketWrapper;
+        private readonly IConnectionService _connectionService;
 
-        public GameStarter(IWebSocketWrapper webSocketWrapper)
+        public GameStarter(IConnectionService connectionService)
         {
-            this.webSocketWrapper = webSocketWrapper;
+            _connectionService = connectionService;
         }
 
         public async Task CreateGame()
@@ -43,7 +43,7 @@ namespace bot
 
             var request = new Request();
             request.CreateGame = createGame;
-            await webSocketWrapper.SendRequestAsync(request);
+            await _connectionService.SendRequestAsync(request);
             Console.WriteLine("request sent");
         }
 
@@ -56,7 +56,7 @@ namespace bot
             };
             
             var request = new Request {JoinGame = joinGame};
-            await webSocketWrapper.SendRequestAsync(request);
+            await _connectionService.SendRequestAsync(request);
         }
     }
 }
