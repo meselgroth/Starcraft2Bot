@@ -36,8 +36,8 @@ namespace botTest
                         arraySegment[i] = _gRpcReceivedBytes[i];
                     }
                 })
-                .Returns(Task.FromResult(new WebSocketReceiveResult(_gRpcReceivedBytes.Length,
-                        WebSocketMessageType.Binary, true)));
+                .ReturnsAsync(() => new WebSocketReceiveResult(_gRpcReceivedBytes.Length,
+                        WebSocketMessageType.Binary, true));
 
             var sut = new ConnectionService(webSocketMock.Object);
 
