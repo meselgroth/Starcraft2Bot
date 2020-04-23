@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using bot;
+using HiveMind;
 using NUnit.Framework;
 using SC2APIProtocol;
 
-namespace botTest
+namespace HiveMindTest
 {
     public class GenerateByteDumpOneOff
     {

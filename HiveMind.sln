@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bot", "bot\bot.csproj", "{F49AB79C-564C-42B7-8382-4B3700D8A162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiveMind", "HiveMind\HiveMind.csproj", "{F49AB79C-564C-42B7-8382-4B3700D8A162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "botTest", "botTest\botTest.csproj", "{ADF5A6EE-6266-4DA4-AA12-CDFB14F19D1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiveMindTest", "HiveMindTest\HiveMindTest.csproj", "{ADF5A6EE-6266-4DA4-AA12-CDFB14F19D1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC680F62-7549-48D0-85EB-D0907892AC5D}"
 	ProjectSection(SolutionItems) = preProject

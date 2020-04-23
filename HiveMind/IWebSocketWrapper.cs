@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using SC2APIProtocol;
 
-namespace bot
+namespace HiveMind
 {
     public interface IWebSocketWrapper
     {

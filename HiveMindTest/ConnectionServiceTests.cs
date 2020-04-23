@@ -1,16 +1,14 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
-using bot;
 using FluentAssertions;
+using HiveMind;
 using Moq;
 using NUnit.Framework;
 
-namespace botTest
+namespace HiveMindTest
 {
     public class ConnectionServiceTests
     {

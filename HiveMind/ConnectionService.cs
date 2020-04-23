@@ -1,12 +1,10 @@
 using System;
-using System.IO;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Google.Protobuf;
 using SC2APIProtocol;
 
-namespace bot
+namespace HiveMind
 {
     public class ConnectionService : IConnectionService
     {

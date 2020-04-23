@@ -3,7 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 using SC2APIProtocol;
 
-namespace bot
+namespace HiveMind
 {
     public class GameStarter
     {
