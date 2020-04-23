@@ -18,7 +18,7 @@ namespace bot
             await gameStarter.CreateGame();
             await gameStarter.JoinGame(Race.Terran);
 
-            var game = new Game(_webSocketWrapper, connectionService);
+            var game = new Game(_webSocketWrapper, connectionService, new WorkerManager(connectionService));
             await game.Run();
             Console.ReadLine();
         }
