@@ -2,6 +2,9 @@ Starting as a basic console app to connect via websocket to SC2 and start new ga
 
 Uses Grpc.Tools to auto generate c# gRPC classes and connects over websocket sending binary gRPC messages.
 
+Proto files are downloaded from https://github.com/Blizzard/s2client-proto/tree/master/s2clientprotocol
+A future improvement would be a git link to ensure latest are always used.
+
 # Object Model
 ## SCV manager
 Build scvs until 85

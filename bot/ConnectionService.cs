@@ -31,12 +31,12 @@ namespace bot
             //cancellationSource.CancelAfter(5000);
 
             var bytes = await ReceiveMessageAsync(cancellationSource.Token);
-
-
+            
             var response = Response.Parser.ParseFrom(bytes);
             Console.WriteLine($"Received response, Case:{response.ResponseCase}, Status{response.Status}");
 
             if (response.Error.Count <= 0) return response;
+
             Console.WriteLine("Response errors:");
             foreach (var error in response.Error)
             {
@@ -48,30 +48,21 @@ namespace bot
 
         public async Task<byte[]> ReceiveMessageAsync(CancellationToken cancellationToken)
         {
-            var receiveBuf = new byte[1024 * 1024];
+            var bytes = new byte[1024 * 1024];
             var finished = false;
-            var curPos = 0;
+            var index = 0;
             while (!finished)
             {
-                var left = receiveBuf.Length - curPos;
-                if (left < 0)
-                {
-                    // No space left in the array, enlarge the array by doubling its size.
-                    var temp = new byte[receiveBuf.Length * 2];
-                    Array.Copy(receiveBuf, temp, receiveBuf.Length);
-                    receiveBuf = temp;
-                    left = receiveBuf.Length - curPos;
-                }
-
-                var result = await _webSocketWrapper.ReceiveAsync(new ArraySegment<byte>(receiveBuf, curPos, left), cancellationToken);
+                var length = bytes.Length - index;
+                var result = await _webSocketWrapper.ReceiveAsync(new ArraySegment<byte>(bytes, index, length), cancellationToken);
                 if (result.MessageType != WebSocketMessageType.Binary)
                     throw new Exception("Expected binary message type.");
 
-                curPos += result.Count;
+                index += result.Count;
                 finished = result.EndOfMessage;
             }
 
-            return new ArraySegment<byte>(receiveBuf, 0, curPos).ToArray();
+            return new ArraySegment<byte>(bytes, 0, index).ToArray();
         }
     }
 }
