@@ -6,8 +6,8 @@ Proto files are downloaded from https://github.com/Blizzard/s2client-proto/tree/
 A future improvement would be a git link to ensure latest are always used.
 
 # Object Model
-## SCV manager
-Build scvs until 85
+## Worker manager
+Build workers until 85
 Add to Gas
 (Later ensure base saturation)
 
