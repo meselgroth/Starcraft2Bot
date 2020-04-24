@@ -24,7 +24,7 @@ namespace HiveMind
             action.ActionRaw.UnitCommand = new ActionRawUnitCommand();
             action.ActionRaw.UnitCommand.AbilityId = (int)gameData.Units[_constantManager.SupplyUnit].AbilityId; // Improve with linq query and store result in memory
             action.ActionRaw.UnitCommand.UnitTags.Add(worker.Tag);
-            action.ActionRaw.UnitCommand.TargetWorldSpacePos = new Point2D { X = 20, Y = 20 };
+            action.ActionRaw.UnitCommand.TargetWorldSpacePos = new Point2D { X = worker.Pos.X, Y = worker.Pos.Y };
                 
             var requestAction = new RequestAction();
             requestAction.Actions.Add(action);

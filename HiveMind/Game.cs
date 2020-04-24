@@ -9,17 +9,19 @@ namespace HiveMind
         private readonly IWebSocketWrapper _webSocketWrapper;
         private readonly IConnectionService _connectionService;
         private readonly IWorkerManager _workerManager;
+        private readonly BuildQueue _buildQueue;
         private bool _surrender;
         private ResponseObservation _responseObservation;
         private ResponseData _responseData;
 
         public Game(IWebSocketWrapper webSocketWrapper, IConnectionService connectionService,
-            IWorkerManager workerManager)
+            IWorkerManager workerManager, BuildQueue buildQueue)
         {
             _surrender = false;
             _webSocketWrapper = webSocketWrapper;
             _connectionService = connectionService;
             _workerManager = workerManager;
+            _buildQueue = buildQueue;
         }
 
         public async Task Run()
@@ -61,6 +63,8 @@ namespace HiveMind
                 {
                     _responseObservation = response.Observation;
                     await _workerManager.Manage(_responseObservation.Observation, _responseData);
+                    await _buildQueue.Act(_responseObservation.Observation, _responseData);
+
                 }
                 if (response.HasData)
                 {

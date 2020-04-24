@@ -6,26 +6,19 @@ namespace HiveMind
 {
     public class Program
     {
-        public Program(IConstantManager constantManager)
-        {
-            _constantManager = constantManager;
-        }
-
-        private static WebSocketWrapper _webSocketWrapper;
-        private static IConstantManager _constantManager;
-
         static async Task Main(string[] args)
         {
-            _webSocketWrapper = new WebSocketWrapper();
-            await _webSocketWrapper.ConnectWebSocket();
-            var connectionService = new ConnectionService(_webSocketWrapper);
+            var webSocketWrapper = new WebSocketWrapper();
+            await webSocketWrapper.ConnectWebSocket();
+            var connectionService = new ConnectionService(webSocketWrapper);
 
             var gameStarter = new GameStarter(connectionService);
             await gameStarter.CreateGame();
             await gameStarter.JoinGame(Race.Terran);
 
-            _constantManager = new ConstantManager(Race.Terran);
-            var game = new Game(_webSocketWrapper, connectionService, new WorkerManager(connectionService, _constantManager));
+            IConstantManager constantManager = new ConstantManager(Race.Terran);
+            var game = new Game(webSocketWrapper, connectionService, new WorkerManager(connectionService, constantManager),
+                new BuildQueue(new BuildingManager(connectionService, constantManager)));
             await game.Run();
             Console.ReadLine();
         }
