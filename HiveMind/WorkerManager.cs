@@ -20,7 +20,7 @@ namespace HiveMind
         {
             if (currentObservation.PlayerCommon.FoodWorkers < 75) // Decision
             {
-                var baseUnits = GetPlayerUnits(_constantManager.GetBaseTypeIds, currentObservation); // Base Manager
+                var baseUnits = currentObservation.GetPlayerUnits(_constantManager.BaseTypeIds); // Base Manager
                 if (baseUnits[0].Orders.Count > 0) // Single command centre for now
                 {
                     return;
@@ -35,17 +35,6 @@ namespace HiveMind
                 
                 await _connectionService.SendRequestAsync(new Request { Action = requestAction }); // Queue a list desired prioritised actions, that trigger when possible (unit queue is close to finished and resources are sufficient)
             }
-        }
-
-
-        public static List<Unit> GetPlayerUnits(uint[] unitTypeIds, Observation currentObservation,
-            bool onlyCompleted = true)
-        {
-            return currentObservation.RawData.Units
-                .Where(unit => unitTypeIds.Contains(unit.UnitType) 
-                               && unit.Alliance == Alliance.Self 
-                               // ReSharper disable once CompareOfFloatsByEqualityOperator
-                               && (!onlyCompleted || unit.BuildProgress == 1)).ToList();
         }
     }
 }

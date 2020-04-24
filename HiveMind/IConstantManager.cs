@@ -5,6 +5,7 @@ namespace HiveMind
     public interface IConstantManager
     {
         int WorkerUnitIndex { get; }
-        uint[] GetBaseTypeIds { get; }
+        uint[] BaseTypeIds { get; }
+        int SupplyUnit { get; }
     }
 }
