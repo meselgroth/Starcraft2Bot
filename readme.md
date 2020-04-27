@@ -34,7 +34,17 @@ Prioritised list of things to build while waiting for resources
 	* Attack/rush
 	* Enemy intel
 
-## Building manager
+## Building planner
+### Making the bot map aware
+Break map down into plateaus (area all on same level, such as main base)
+Each plateau has a grid system, each block on grid is either
+ - free
+ - building
+ - mineral
+ - reserved for pathway
+ - enemy
+Has a ramp/exit location
+
 ## Army manager ( defence positions / attack positions)
 ## Scout manager
 ## Intel manager

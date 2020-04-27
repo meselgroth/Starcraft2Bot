@@ -54,7 +54,7 @@ namespace HiveMind
         private async Task Receiver()
         {
             Response response;
-            List<Task> tasks = new List<Task>();
+            var tasks = new List<Task>();
 
             do
             {
