@@ -5,6 +5,6 @@ namespace HiveMind
 {
     public interface IWorkerManager
     {
-        Task Manage(Observation currentObservation, ResponseData gameData);
+        Task Manage(Observation currentObservation);
     }
 }

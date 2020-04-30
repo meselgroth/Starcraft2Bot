@@ -9,14 +9,16 @@ namespace HiveMind
     {
         private readonly IConnectionService _connectionService;
         private readonly IConstantManager _constantManager;
+        private readonly IGameDataService _gameDataService;
 
-        public BuildingManager(IConnectionService connectionService, IConstantManager constantManager)
+        public BuildingManager(IConnectionService connectionService, IConstantManager constantManager, IGameDataService gameDataService)
         {
             _connectionService = connectionService;
             _constantManager = constantManager;
+            _gameDataService = gameDataService;
         }
 
-        public async Task Build(Observation currentObservation, ResponseData gameData, int unitType,
+        public async Task Build(Observation currentObservation, int unitType,
             ResponseGameInfo responseGameInfo)
         {
             var workers = currentObservation.GetPlayerUnits(new[] { (uint)_constantManager.WorkerUnitIndex });
@@ -24,18 +26,16 @@ namespace HiveMind
 
             //var buildingPlanner = new BasePlanner(responseGameInfo.);
             
-            await SendBuildRequest(gameData, worker, unitType);
+            await SendBuildRequest(worker, unitType);
         }
 
-        private async Task SendBuildRequest(ResponseData gameData, Unit worker, int unitIndex)
+        private async Task SendBuildRequest(Unit worker, int unitType)
         {
             var action = new Action();
             action.ActionRaw = new ActionRaw();
             action.ActionRaw.UnitCommand = new ActionRawUnitCommand();
-            action.ActionRaw.UnitCommand.AbilityId =
-                (int) gameData.Units[unitIndex]
-                    .AbilityId; // Improve with linq query and store result in memory
-            action.ActionRaw.UnitCommand.UnitTags.Add(worker.Tag);
+            action.ActionRaw.UnitCommand.AbilityId = _gameDataService.GetAbilityId(unitType);
+                action.ActionRaw.UnitCommand.UnitTags.Add(worker.Tag);
             action.ActionRaw.UnitCommand.TargetWorldSpacePos = new Point2D {X = worker.Pos.X, Y = worker.Pos.Y};
 
             var requestAction = new RequestAction();

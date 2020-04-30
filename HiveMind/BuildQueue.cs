@@ -16,7 +16,7 @@ namespace HiveMind
             _queue = new Queue<BuildQueueItem>();
         }
 
-        public async Task Act(Observation currentObservation, ResponseData gameData, ResponseGameInfo responseGameInfo)
+        public async Task Act(Observation currentObservation, ResponseGameInfo responseGameInfo)
         {
             // Fill queue
             if (currentObservation.PlayerCommon.FoodWorkers == 13)
@@ -25,7 +25,7 @@ namespace HiveMind
                 // don't queue if already queued
                 _queue.Enqueue(new BuildQueueItem
                 {
-                    Action = () => _buildingManager.Build(currentObservation, gameData, ConstantManager.SupplyDepot, responseGameInfo),
+                    Action = () => _buildingManager.Build(currentObservation, ConstantManager.SupplyDepot, responseGameInfo),
                     Triggered = false
                 });
             }

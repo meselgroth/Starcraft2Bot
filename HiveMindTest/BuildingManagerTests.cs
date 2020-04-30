@@ -12,24 +12,12 @@ namespace HiveMindTest
     {
         private ResponseData _responseData;
         private Observation _currentObservation;
-        private Mock<IConstantManager> _constantMock;
         private const int AbilityId = 118;
         private const int Tag = 500;
-        private const int UnitTypeIndex = 1;
 
         [SetUp]
         public void Setup()
         {
-            _constantMock = new Mock<IConstantManager>();
-            _constantMock.SetupGet(m => m.WorkerUnitIndex).Returns(ConstantManager.Scv);
-            _constantMock.SetupGet(m => m.BaseTypeIds).Returns(new[] { ConstantManager.CommandCenter });
-            // Mock index of SupplyUnit to 0
-            _constantMock.SetupGet(m => m.SupplyUnit).Returns(UnitTypeIndex);
-
-            _responseData = new ResponseData();
-            // Index of worker matches above mocked constant 
-            _responseData.Units.Add(new UnitTypeData { AbilityId = 999, UnitId = ConstantManager.Scv });
-            _responseData.Units.Add(new UnitTypeData { AbilityId = AbilityId, UnitId = ConstantManager.SupplyDepot });
             _currentObservation = new Observation
             {
                 PlayerCommon = new PlayerCommon { FoodWorkers = 0 },
@@ -44,9 +32,13 @@ namespace HiveMindTest
             var connectionMock = new Mock<IConnectionService>();
             connectionMock.Setup(m => m.SendRequestAsync(It.IsAny<Request>()))
                 .Callback((Request r) => actualRequest = r);
-            var sut = new BuildingManager(connectionMock.Object, _constantMock.Object);
 
-            await sut.Build(_currentObservation, _responseData, UnitTypeIndex, new ResponseGameInfo());
+            var gameDataServiceMock = new Mock<IGameDataService>();
+            gameDataServiceMock.Setup(m => m.GetAbilityId(ConstantManager.SupplyDepot)).Returns(AbilityId);
+            
+            var sut = new BuildingManager(connectionMock.Object, new ConstantManager(Race.Terran), gameDataServiceMock.Object);
+
+            await sut.Build(_currentObservation, ConstantManager.SupplyDepot, new ResponseGameInfo());
 
             actualRequest.Action.Actions[0].ActionRaw.UnitCommand.AbilityId.Should().Be(AbilityId);
             actualRequest.Action.Actions[0].ActionRaw.UnitCommand.UnitTags[0].Should().Be(Tag);

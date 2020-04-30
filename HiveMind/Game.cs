@@ -12,7 +12,7 @@ namespace HiveMind
         private readonly IBuildQueue _buildQueue;
         private bool _surrender;
         private ResponseObservation _responseObservation;
-        private ResponseData _responseData;
+        public static ResponseData ResponseData;
         private ResponseGameInfo _responseGameInfo;
 
         public Game(IWebSocketWrapper webSocketWrapper, IConnectionService connectionService,
@@ -66,12 +66,12 @@ namespace HiveMind
                 if (response.HasObservation)
                 {
                     _responseObservation = response.Observation;
-                    await _workerManager.Manage(_responseObservation.Observation, _responseData);
-                    await _buildQueue.Act(_responseObservation.Observation, _responseData, _responseGameInfo);
+                    await _workerManager.Manage(_responseObservation.Observation);
+                    await _buildQueue.Act(_responseObservation.Observation, _responseGameInfo);
                 }
                 if (response.HasData)
                 {
-                    _responseData = response.Data;
+                    ResponseData = response.Data;
                 }
                 if (response.HasGameInfo)
                 {
