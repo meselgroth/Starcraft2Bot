@@ -8,6 +8,7 @@ A future improvement would be a git link to ensure latest are always used.
 # Object Model
 ## Worker manager
 Build workers until 85
+
 Add to Gas
 (Later ensure base saturation)
 
@@ -69,3 +70,6 @@ OR
 Each manager is on its own loop and decision making process with Central over arching goals: expand/rush/attack
 Will be easier to add machine learning (in small decision making and goal)
 Can start with human input on goals
+
+# Investigate
+DebugDraw to highlight things in the game for debugging (where the bot tried to do something)

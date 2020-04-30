@@ -15,23 +15,25 @@ namespace HiveMindTest
         private Mock<IConstantManager> _constantMock;
         private const int AbilityId = 118;
         private const int Tag = 500;
+        private const int UnitTypeIndex = 1;
 
         [SetUp]
         public void Setup()
         {
             _constantMock = new Mock<IConstantManager>();
-            // Mock index of worker to 0
             _constantMock.SetupGet(m => m.WorkerUnitIndex).Returns(ConstantManager.Scv);
             _constantMock.SetupGet(m => m.BaseTypeIds).Returns(new[] { ConstantManager.CommandCenter });
-            _constantMock.SetupGet(m => m.SupplyUnit).Returns(0);
+            // Mock index of SupplyUnit to 0
+            _constantMock.SetupGet(m => m.SupplyUnit).Returns(UnitTypeIndex);
 
             _responseData = new ResponseData();
             // Index of worker matches above mocked constant 
-            _responseData.Units.Add(new UnitTypeData { AbilityId = AbilityId, UnitId = ConstantManager.Scv });
+            _responseData.Units.Add(new UnitTypeData { AbilityId = 999, UnitId = ConstantManager.Scv });
+            _responseData.Units.Add(new UnitTypeData { AbilityId = AbilityId, UnitId = ConstantManager.SupplyDepot });
             _currentObservation = new Observation
             {
                 PlayerCommon = new PlayerCommon { FoodWorkers = 0 },
-                RawData = new ObservationRaw { Units = { new Unit { UnitType = ConstantManager.Scv, Alliance = Alliance.Self, BuildProgress = 1, Tag = Tag } } }
+                RawData = new ObservationRaw { Units = { new Unit { UnitType = ConstantManager.Scv, Alliance = Alliance.Self, BuildProgress = 1, Tag = Tag, Pos = new Point { X = 20, Y = 25 } } } }
             };
         }
 
@@ -44,7 +46,7 @@ namespace HiveMindTest
                 .Callback((Request r) => actualRequest = r);
             var sut = new BuildingManager(connectionMock.Object, _constantMock.Object);
 
-            await sut.Build(_currentObservation, _responseData, ConstantManager.SupplyDepot);
+            await sut.Build(_currentObservation, _responseData, UnitTypeIndex, new ResponseGameInfo());
 
             actualRequest.Action.Actions[0].ActionRaw.UnitCommand.AbilityId.Should().Be(AbilityId);
             actualRequest.Action.Actions[0].ActionRaw.UnitCommand.UnitTags[0].Should().Be(Tag);

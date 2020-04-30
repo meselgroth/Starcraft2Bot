@@ -56,7 +56,7 @@ namespace HiveMindTest
                 .ReturnsAsync((ArraySegment<byte> arraySegment, CancellationToken token) =>
                 {
                     // Write a portion of each byte to ArraySegment parameter
-                    var length = firstCall ? 2000 : arraySegment.Count;
+                    var length = firstCall ? 2000 : _gRpcReceivedBytes.Length;
                     for (var i = arraySegment.Offset; i < length; i++)
                     {
                         arraySegment[i-arraySegment.Offset] = _gRpcReceivedBytes[i];

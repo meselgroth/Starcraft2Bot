@@ -9,13 +9,14 @@ namespace HiveMind
         private readonly IWebSocketWrapper _webSocketWrapper;
         private readonly IConnectionService _connectionService;
         private readonly IWorkerManager _workerManager;
-        private readonly BuildQueue _buildQueue;
+        private readonly IBuildQueue _buildQueue;
         private bool _surrender;
         private ResponseObservation _responseObservation;
         private ResponseData _responseData;
+        private ResponseGameInfo _responseGameInfo;
 
         public Game(IWebSocketWrapper webSocketWrapper, IConnectionService connectionService,
-            IWorkerManager workerManager, BuildQueue buildQueue)
+            IWorkerManager workerManager, IBuildQueue buildQueue)
         {
             _surrender = false;
             _webSocketWrapper = webSocketWrapper;
@@ -49,6 +50,9 @@ namespace HiveMind
                 UpgradeId = true
             };
             await _connectionService.SendRequestAsync(new Request {Data = requestData});
+
+            var requestGameInfo = new RequestGameInfo();
+            await _connectionService.SendRequestAsync(new Request {GameInfo = requestGameInfo}); // Todo: Join requests?
         }
 
         private async Task Receiver()
@@ -63,12 +67,15 @@ namespace HiveMind
                 {
                     _responseObservation = response.Observation;
                     await _workerManager.Manage(_responseObservation.Observation, _responseData);
-                    await _buildQueue.Act(_responseObservation.Observation, _responseData);
-
+                    await _buildQueue.Act(_responseObservation.Observation, _responseData, _responseGameInfo);
                 }
                 if (response.HasData)
                 {
                     _responseData = response.Data;
+                }
+                if (response.HasGameInfo)
+                {
+                    _responseGameInfo = response.GameInfo;
                 }
 
             } while (response.Status != Status.Ended || response.Status != Status.Quit);

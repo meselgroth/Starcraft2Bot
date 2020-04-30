@@ -31,7 +31,7 @@ namespace HiveMind
             var bytes = await ReceiveMessageAsync(cancellationSource.Token);
             
             var response = Response.Parser.ParseFrom(bytes);
-            Console.WriteLine($"Received response, Case:{response.ResponseCase}, Status{response.Status}");
+            //Console.WriteLine($"Received response, Case:{response.ResponseCase}, Status{response.Status}");
 
             if (response.Error.Count <= 0) return response;
 
