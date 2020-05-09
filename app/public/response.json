@@ -1,0 +1,2893 @@
+{
+    "observation": {
+        "observation": {
+            "playerCommon": {
+                "playerId": 1,
+                "minerals": 50,
+                "foodCap": 15,
+                "foodUsed": 12,
+                "foodWorkers": 12
+            },
+            "score": {
+                "scoreType": "Melee",
+                "score": 1050,
+                "scoreDetails": {
+                    "idleProductionTime": 0.0625,
+                    "totalValueUnits": 600,
+                    "totalValueStructures": 400,
+                    "foodUsed": {
+                        "economy": 12
+                    },
+                    "killedMinerals": {},
+                    "killedVespene": {},
+                    "lostMinerals": {},
+                    "lostVespene": {},
+                    "friendlyFireMinerals": {},
+                    "friendlyFireVespene": {},
+                    "usedMinerals": {
+                        "economy": 1000
+                    },
+                    "usedVespene": {},
+                    "totalUsedMinerals": {
+                        "economy": 1000
+                    },
+                    "totalUsedVespene": {},
+                    "totalDamageDealt": {},
+                    "totalDamageTaken": {},
+                    "totalHealed": {}
+                }
+            },
+            "rawData": {
+                "player": {
+                    "camera": {
+                        "x": 31.75,
+                        "y": 139.75
+                    }
+                },
+                "units": [
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8833466370",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 135,
+                            "y": 145.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8833859586",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149,
+                            "y": 81.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8834056194",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 110,
+                            "y": 135.5,
+                            "z": 9.990052
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8834252802",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 128,
+                            "y": 149.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8834646018",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 110,
+                            "y": 32.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8834842626",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 41,
+                            "y": 28.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8835235842",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 142,
+                            "y": 27.5,
+                            "z": 11.988958
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8835432450",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 67,
+                            "y": 140.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8835629058",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149,
+                            "y": 29.5,
+                            "z": 11.985962
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8835825666",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 135,
+                            "y": 147.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8836677634",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 109,
+                            "y": 33.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8836874242",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 103,
+                            "y": 26.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8837267458",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 40,
+                            "y": 27.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8837660674",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 67,
+                            "y": 142.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8838053890",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 124,
+                            "y": 60.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8838250498",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 105.5,
+                            "y": 136.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8838447106",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 114,
+                            "y": 128.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8838643714",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 66.5,
+                            "y": 135.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8838840322",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 134,
+                            "y": 148.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8838971393",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150.5,
+                            "y": 90.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839036929",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 145,
+                            "y": 27.5,
+                            "z": 11.985962
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839102465",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 151,
+                            "y": 58.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839168001",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 25,
+                            "y": 86.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839233537",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 113.5,
+                            "y": 53.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839299073",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 62.5,
+                            "y": 118.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839364609",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149,
+                            "y": 33.5,
+                            "z": 11.988958
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839430145",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 23,
+                            "y": 49.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839561217",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 56,
+                            "y": 117.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839626753",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 131,
+                            "y": 149.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839757825",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 41,
+                            "y": 24.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8839888897",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 153.5,
+                            "y": 115.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840019969",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 114,
+                            "y": 131.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840085505",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26.5,
+                            "y": 60.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840216577",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 32,
+                            "y": 119.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840282113",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 40.5,
+                            "y": 31.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840413185",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 125,
+                            "y": 59.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840478721",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150,
+                            "y": 87.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840544257",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 114.5,
+                            "y": 125.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840609793",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 58,
+                            "y": 118.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840675329",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150,
+                            "y": 82.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840740865",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 124,
+                            "y": 58.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840806401",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149.5,
+                            "y": 36.5,
+                            "z": 11.988958
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840871937",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 62,
+                            "y": 43.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8840937473",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 41,
+                            "y": 26.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841068545",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26,
+                            "y": 84.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841134081",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 114,
+                            "y": 129.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841265153",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 109,
+                            "y": 31.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841330689",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 152,
+                            "y": 57.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841396225",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 31,
+                            "y": 92.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841461761",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 109,
+                            "y": 136.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841527297",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 25,
+                            "y": 113.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841592833",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 53,
+                            "y": 116.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841658369",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 124.5,
+                            "y": 150.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841789441",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 27,
+                            "y": 90.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841854977",
+                        "unitType": 642,
+                        "owner": 16,
+                        "pos": {
+                            "x": 80,
+                            "y": 119,
+                            "z": 7.988943
+                        },
+                        "facing": 1,
+                        "radius": 6.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841920513",
+                        "unitType": 473,
+                        "owner": 16,
+                        "pos": {
+                            "x": 139,
+                            "y": 55,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8841986049",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 151,
+                            "y": 85.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842051585",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 48,
+                            "y": 22.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842182657",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150,
+                            "y": 84.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842248193",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26,
+                            "y": 118.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842313729",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 22,
+                            "y": 52.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842444801",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 153,
+                            "y": 118.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842575873",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 74,
+                            "y": 144.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842706945",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 28.5,
+                            "y": 106.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842772481",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 25,
+                            "y": 115.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842838017",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 24.5,
+                            "y": 110.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842903553",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 52,
+                            "y": 113.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8842969089",
+                        "unitType": 642,
+                        "owner": 16,
+                        "pos": {
+                            "x": 96,
+                            "y": 53,
+                            "z": 7.9892244
+                        },
+                        "facing": 1,
+                        "radius": 6.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843034625",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 45,
+                            "y": 22.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843165697",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26,
+                            "y": 87.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843231233",
+                        "unitType": 365,
+                        "owner": 16,
+                        "pos": {
+                            "x": 127,
+                            "y": 77,
+                            "z": 9.465935
+                        },
+                        "facing": 7,
+                        "radius": 3.1875,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843296769",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 51.5,
+                            "y": 21.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843427841",
+                        "unitType": 149,
+                        "owner": 16,
+                        "pos": {
+                            "x": 63,
+                            "y": 70,
+                            "z": 7.988098
+                        },
+                        "facing": 7,
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843493377",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 151,
+                            "y": 56.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843558913",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 77.5,
+                            "y": 145.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843624449",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 146,
+                            "y": 80.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843689985",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149.5,
+                            "y": 111.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843821057",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 29,
+                            "y": 46.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8843952129",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 71,
+                            "y": 144.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844017665",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 63,
+                            "y": 37.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844083201",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 135.5,
+                            "y": 140.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844214273",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 52,
+                            "y": 111.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844279809",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 154,
+                            "y": 119.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844410881",
+                        "unitType": 639,
+                        "owner": 16,
+                        "pos": {
+                            "x": 137,
+                            "y": 130,
+                            "z": 7.988098
+                        },
+                        "facing": 7,
+                        "radius": 3.1875,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844476417",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150,
+                            "y": 86.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844541953",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 114,
+                            "y": 133.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844607489",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 70.5,
+                            "y": 35.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844673025",
+                        "unitType": 639,
+                        "owner": 16,
+                        "pos": {
+                            "x": 75,
+                            "y": 75,
+                            "z": 8.973068
+                        },
+                        "facing": 7,
+                        "radius": 3.1875,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844738561",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150,
+                            "y": 53.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844804097",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 42,
+                            "y": 23.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8844935169",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 124.5,
+                            "y": 63.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845000705",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 23,
+                            "y": 53.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845131777",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 145.5,
+                            "y": 93.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845197313",
+                        "unitType": 639,
+                        "owner": 16,
+                        "pos": {
+                            "x": 101,
+                            "y": 97,
+                            "z": 9.016556
+                        },
+                        "facing": 7,
+                        "radius": 3.1875,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845262849",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 29,
+                            "y": 119.5,
+                            "z": 9.990602
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845328385",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 47,
+                            "y": 21.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845459457",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 67,
+                            "y": 138.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845524993",
+                        "unitType": 639,
+                        "owner": 16,
+                        "pos": {
+                            "x": 39,
+                            "y": 42,
+                            "z": 7.988098
+                        },
+                        "facing": 7,
+                        "radius": 3.1875,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845590529",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 108,
+                            "y": 28.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845656065",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 109,
+                            "y": 29.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845721601",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 146,
+                            "y": 124.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845852673",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 147,
+                            "y": 125.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8845983745",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 138.5,
+                            "y": 26.5,
+                            "z": 11.988958
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846049281",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26,
+                            "y": 89.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846114817",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 151,
+                            "y": 54.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846180353",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 145,
+                            "y": 51.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846245889",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 30,
+                            "y": 91.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846311425",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 147.5,
+                            "y": 65.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846442497",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 66,
+                            "y": 36.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846573569",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 51.5,
+                            "y": 108.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846639105",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 123,
+                            "y": 55.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846704641",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 118,
+                            "y": 53.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846770177",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 113,
+                            "y": 134.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846835713",
+                        "unitType": 149,
+                        "owner": 16,
+                        "pos": {
+                            "x": 113,
+                            "y": 102,
+                            "z": 7.988098
+                        },
+                        "facing": 7,
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846901249",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 66,
+                            "y": 139.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8846966785",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 115,
+                            "y": 130.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847032321",
+                        "unitType": 342,
+                        "owner": 16,
+                        "pos": {
+                            "x": 22.5,
+                            "y": 56.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847163393",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 73,
+                            "y": 145.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847228929",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 145,
+                            "y": 79.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847294465",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 120,
+                            "y": 54.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847360001",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 68,
+                            "y": 143.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847425537",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 150,
+                            "y": 32.5,
+                            "z": 11.988958
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847491073",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 153,
+                            "y": 122.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847622145",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 31,
+                            "y": 120.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847687681",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 129,
+                            "y": 150.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847818753",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 151.5,
+                            "y": 61.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8847949825",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 25.5,
+                            "y": 81.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848080897",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 51,
+                            "y": 112.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848146433",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 30.5,
+                            "y": 78.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848211969",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 124,
+                            "y": 56.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848277505",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 59,
+                            "y": 117.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848343041",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 62,
+                            "y": 42.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848408577",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 24,
+                            "y": 48.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848539649",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 102,
+                            "y": 27.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848605185",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 148,
+                            "y": 28.5,
+                            "z": 11.985962
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848670721",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 30,
+                            "y": 47.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848801793",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149,
+                            "y": 124.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848932865",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 67,
+                            "y": 35.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8848998401",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 25,
+                            "y": 117.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849063937",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 98.5,
+                            "y": 26.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849129473",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 144,
+                            "y": 52.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849195009",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 147,
+                            "y": 52.5,
+                            "z": 9.990082
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849326081",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 152,
+                            "y": 123.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849457153",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 52,
+                            "y": 115.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849522689",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 149,
+                            "y": 31.5,
+                            "z": 11.985962
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849653761",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 24,
+                            "y": 114.5,
+                            "z": 9.990876
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849719297",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 105,
+                            "y": 27.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849784833",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26,
+                            "y": 85.5,
+                            "z": 9.989228
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849850369",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 23,
+                            "y": 51.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8849981441",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 62,
+                            "y": 40.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850046977",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 135,
+                            "y": 143.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850178049",
+                        "unitType": 365,
+                        "owner": 16,
+                        "pos": {
+                            "x": 49,
+                            "y": 95,
+                            "z": 9.510185
+                        },
+                        "facing": 7,
+                        "radius": 3.1875,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850243585",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 117,
+                            "y": 54.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850309121",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 143,
+                            "y": 26.5,
+                            "z": 11.988958
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850374657",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 61,
+                            "y": 41.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850440193",
+                        "unitType": 483,
+                        "owner": 16,
+                        "pos": {
+                            "x": 136,
+                            "y": 144.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850571265",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 109.5,
+                            "y": 36.5,
+                            "z": 7.9892244
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850636801",
+                        "unitType": 473,
+                        "owner": 16,
+                        "pos": {
+                            "x": 37,
+                            "y": 117,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850702337",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 153,
+                            "y": 120.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850833409",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 61.5,
+                            "y": 46.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.5,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8850898945",
+                        "unitType": 341,
+                        "owner": 16,
+                        "pos": {
+                            "x": 27,
+                            "y": 47.5,
+                            "z": 7.988098
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Snapshot",
+                        "alliance": "Neutral",
+                        "tag": "8851030017",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 62,
+                            "y": 38.5,
+                            "z": 9.98703
+                        },
+                        "radius": 1.125,
+                        "buildProgress": 1
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4315152385",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26,
+                            "y": 139.5,
+                            "z": 11.988958
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 900
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4316725249",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 27,
+                            "y": 140.5,
+                            "z": 11.988958
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 1800
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4324327425",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 34,
+                            "y": 144.5,
+                            "z": 11.985962
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 1800
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4348706817",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 31.499544,
+                            "y": 141.50026,
+                            "z": 11.988958
+                        },
+                        "facing": 0.8872113,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4348968961",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.499731,
+                            "y": 139.50046,
+                            "z": 11.988958
+                        },
+                        "facing": 0.07300234,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4349755393",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 33.499504,
+                            "y": 141.50017,
+                            "z": 11.988958
+                        },
+                        "facing": 4.3242054,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4351066113",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.499866,
+                            "y": 135.5005,
+                            "z": 11.988958
+                        },
+                        "facing": 3.687975,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4349231105",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 32.499516,
+                            "y": 141.50021,
+                            "z": 11.988958
+                        },
+                        "facing": 4.0497913,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4348182529",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.499584,
+                            "y": 141.50032,
+                            "z": 11.988958
+                        },
+                        "facing": 0.47949648,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4304666625",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 27,
+                            "y": 138.5,
+                            "z": 11.988958
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 1800
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4302307329",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 28,
+                            "y": 143.5,
+                            "z": 11.988958
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 900
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4319084545",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 33,
+                            "y": 145.5,
+                            "z": 11.985962
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 900
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4332453889",
+                        "unitType": 665,
+                        "owner": 16,
+                        "pos": {
+                            "x": 31,
+                            "y": 144.5,
+                            "z": 11.985962
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 1800
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4350541825",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.49984,
+                            "y": 136.5005,
+                            "z": 11.988958
+                        },
+                        "facing": 2.893053,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4350803969",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 35.49949,
+                            "y": 141.50014,
+                            "z": 11.988958
+                        },
+                        "facing": 3.5930042,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4350279681",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 34.49949,
+                            "y": 141.50015,
+                            "z": 11.988958
+                        },
+                        "facing": 2.9094105,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4350017537",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.499813,
+                            "y": 137.5005,
+                            "z": 11.988958
+                        },
+                        "facing": 0.89868593,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4349493249",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.499784,
+                            "y": 138.50049,
+                            "z": 11.988958
+                        },
+                        "facing": 2.752184,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4348444673",
+                        "unitType": 45,
+                        "owner": 1,
+                        "pos": {
+                            "x": 30.499664,
+                            "y": 140.5004,
+                            "z": 11.988958
+                        },
+                        "facing": 3.1633167,
+                        "radius": 0.375,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 45,
+                        "healthMax": 45,
+                        "orders": [
+                            {
+                                "abilityId": 295,
+                                "targetUnitTag": "4302307329"
+                            }
+                        ],
+                        "isActive": true
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Self",
+                        "tag": "4347920385",
+                        "unitType": 18,
+                        "owner": 1,
+                        "pos": {
+                            "x": 33.5,
+                            "y": 138.5,
+                            "z": 12.0379715
+                        },
+                        "facing": 3.9252973,
+                        "radius": 2.75,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 1500,
+                        "healthMax": 1500,
+                        "cargoSpaceMax": 5,
+                        "assignedHarvesters": 12,
+                        "idealHarvesters": 16,
+                        "rallyTargets": [
+                            {
+                                "point": {
+                                    "x": 28,
+                                    "y": 143.5
+                                },
+                                "tag": "4302307329"
+                            }
+                        ]
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4323278849",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 26.5,
+                            "y": 135.5,
+                            "z": 11.988958
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.5,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "vespeneContents": 2250
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4304404481",
+                        "unitType": 666,
+                        "owner": 16,
+                        "pos": {
+                            "x": 27,
+                            "y": 142.5,
+                            "z": 11.988958
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.125,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "mineralContents": 900
+                    },
+                    {
+                        "displayType": "Visible",
+                        "alliance": "Neutral",
+                        "tag": "4303355905",
+                        "unitType": 343,
+                        "owner": 16,
+                        "pos": {
+                            "x": 37.5,
+                            "y": 145.5,
+                            "z": 11.985962
+                        },
+                        "facing": 4.712389,
+                        "radius": 1.5,
+                        "buildProgress": 1,
+                        "cloak": "NotCloaked",
+                        "isOnScreen": true,
+                        "health": 10000,
+                        "healthMax": 10000,
+                        "vespeneContents": 2250
+                    }
+                ],
+                "mapState": {
+                    "visibility": {
+                        "bitsPerPixel": 8,
+                        "size": {
+                            "x": 176,
+                            "y": 184
+                        },
+                        "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+                    },
+                    "creep": {
+                        "bitsPerPixel": 1,
+                        "size": {
+                            "x": 176,
+                            "y": 184
+                        },
+                        "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                    }
+                }
+            },
+            "gameLoop": 1
+        }
+    },
+    "status": "in_game"
+}
