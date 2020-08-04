@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using System.IO;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,10 +21,9 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        public async Task<string> Get()
+        public async Task<FileContentResult> Get()
         {
-            var bitmapBytes = await Sys.File.ReadAllBytesAsync("Monochrome100x100.bmp");
-            return Encoding.UTF8.GetString(bitmapBytes);
+            return File(await Sys.File.ReadAllBytesAsync("Monochrome100x100.bmp"), "image/bitmap");
         }
     }
 }
