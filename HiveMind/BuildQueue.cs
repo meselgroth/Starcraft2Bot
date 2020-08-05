@@ -7,25 +7,26 @@ namespace HiveMind
 {
     public class BuildQueue : IBuildQueue
     {
-        private readonly BuildingManager _buildingManager;
+        private readonly IBuildingManager _buildingManager;
         private readonly Queue<BuildQueueItem> _queue; // Queue of Action, WasTriggered
 
-        public BuildQueue(BuildingManager buildingManager)
+        public BuildQueue(IBuildingManager buildingManager)
         {
             _buildingManager = buildingManager;
             _queue = new Queue<BuildQueueItem>();
         }
 
-        public async Task Act(Observation currentObservation, ResponseGameInfo responseGameInfo)
+        public async Task Act(Observation currentObservation)
         {
+            var supplyUnit = new ConstantManager(Race.Terran).SupplyUnit;
+
             // Fill queue
             if (currentObservation.PlayerCommon.FoodWorkers == 13)
             {
-                // use constant manager lookup for supply buildings
                 // don't queue if already queued
                 _queue.Enqueue(new BuildQueueItem
                 {
-                    Action = () => _buildingManager.Build(currentObservation, ConstantManager.SupplyDepot, responseGameInfo),
+                    Action = () => _buildingManager.Build(currentObservation, supplyUnit),
                     Triggered = false
                 });
             }
@@ -39,7 +40,7 @@ namespace HiveMind
                 if (buildItem.Triggered)
                 {
                     // Previous trigger was successful, TODO: Store success query in queue build item
-                    if (currentObservation.GetPlayerUnits(new[] { (uint)ConstantManager.SupplyDepot }, false).Count == 1)
+                    if (currentObservation.GetPlayerUnits(new[] { (uint)supplyUnit }, false).Count == 1)
                     {
                         _queue.Dequeue();
                     }

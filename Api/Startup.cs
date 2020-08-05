@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SC2APIProtocol;
+using System;
 
 namespace Api
 {
@@ -20,6 +22,15 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton<IWebSocketWrapper, WebSocketWrapper>();
+            services.AddSingleton<IConnectionService, ConnectionService>();
+            services.AddSingleton<GameStarter, GameStarter>();
+            services.AddSingleton<IConstantManager>(_=>new ConstantManager(Race.Terran));
+            services.AddSingleton<IGameDataService, GameDataService>();
+            services.AddSingleton<IBuildingManager, BuildingManager>();
+            services.AddSingleton<IWorkerManager, WorkerManager>();
+            services.AddSingleton<IBuildQueue, BuildQueue>();
+            services.AddSingleton<IGame, Game>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,7 +46,10 @@ namespace Api
             app.UseRouting();
 
             app.UseAuthorization();
-            app.UseEndpoints(endpoints => endpoints.MapControllers());
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }

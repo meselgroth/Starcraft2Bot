@@ -10,5 +10,6 @@ namespace HiveMind
     {
         Task SendAsync(Request request, CancellationToken cancellationToken);
         Task<WebSocketReceiveResult> ReceiveAsync(ArraySegment<byte> arraySegment, CancellationToken cancellationToken);
+        Task ConnectWebSocket();
     }
 }

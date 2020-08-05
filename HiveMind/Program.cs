@@ -4,7 +4,7 @@ using SC2APIProtocol;
 
 namespace HiveMind
 {
-    public class Program
+    public static class Program
     {
         static async Task Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace HiveMind
             await gameStarter.JoinGame(Race.Terran);
 
             IConstantManager constantManager = new ConstantManager(Race.Terran);
-            var game = new Game(webSocketWrapper, connectionService, new WorkerManager(connectionService, constantManager, new GameDataService()),
+            var game = new Game(connectionService, new WorkerManager(connectionService, constantManager, new GameDataService()),
                 new BuildQueue(new BuildingManager(connectionService, constantManager, new GameDataService())));
             await game.Run();
             Console.ReadLine();

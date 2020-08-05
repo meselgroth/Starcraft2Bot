@@ -10,9 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC680F62-7549-48D0-85EB-D0907892AC5D}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
+		start-Sc2Exe.ps1 = start-Sc2Exe.ps1
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{DD3D26B7-1F35-4323-AC3E-0D73DA9D3C9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{DD3D26B7-1F35-4323-AC3E-0D73DA9D3C9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

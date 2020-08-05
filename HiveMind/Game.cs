@@ -4,22 +4,20 @@ using SC2APIProtocol;
 
 namespace HiveMind
 {
-    public class Game
+    public class Game : IGame
     {
-        private readonly IWebSocketWrapper _webSocketWrapper;
         private readonly IConnectionService _connectionService;
         private readonly IWorkerManager _workerManager;
         private readonly IBuildQueue _buildQueue;
         private bool _surrender;
         private ResponseObservation _responseObservation;
         public static ResponseData ResponseData;
-        private ResponseGameInfo _responseGameInfo;
+        public static ResponseGameInfo ResponseGameInfo;
 
-        public Game(IWebSocketWrapper webSocketWrapper, IConnectionService connectionService,
+        public Game(IConnectionService connectionService,
             IWorkerManager workerManager, IBuildQueue buildQueue)
         {
             _surrender = false;
-            _webSocketWrapper = webSocketWrapper;
             _connectionService = connectionService;
             _workerManager = workerManager;
             _buildQueue = buildQueue;
@@ -49,10 +47,10 @@ namespace HiveMind
                 EffectId = true,
                 UpgradeId = true
             };
-            await _connectionService.SendRequestAsync(new Request {Data = requestData});
+            await _connectionService.SendRequestAsync(new Request { Data = requestData });
 
             var requestGameInfo = new RequestGameInfo();
-            await _connectionService.SendRequestAsync(new Request {GameInfo = requestGameInfo}); // Todo: Join requests?
+            await _connectionService.SendRequestAsync(new Request { GameInfo = requestGameInfo }); // Todo: Join requests?
         }
 
         private async Task Receiver()
@@ -67,7 +65,7 @@ namespace HiveMind
                 {
                     _responseObservation = response.Observation;
                     await _workerManager.Manage(_responseObservation.Observation);
-                    await _buildQueue.Act(_responseObservation.Observation, _responseGameInfo);
+                    await _buildQueue.Act(_responseObservation.Observation);
                 }
                 if (response.HasData)
                 {
@@ -75,7 +73,7 @@ namespace HiveMind
                 }
                 if (response.HasGameInfo)
                 {
-                    _responseGameInfo = response.GameInfo;
+                    ResponseGameInfo = response.GameInfo;
                 }
 
             } while (response.Status != Status.Ended || response.Status != Status.Quit);

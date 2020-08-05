@@ -5,6 +5,6 @@ namespace HiveMind
 {
     public interface IBuildQueue
     {
-        Task Act(Observation currentObservation, ResponseGameInfo gameInfo);
+        Task Act(Observation currentObservation);
     }
 }
