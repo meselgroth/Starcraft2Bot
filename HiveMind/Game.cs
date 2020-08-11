@@ -4,7 +4,7 @@ using SC2APIProtocol;
 
 namespace HiveMind
 {
-    public class Game : IGame
+    public class Game
     {
         private readonly IConnectionService _connectionService;
         private readonly IWorkerManager _workerManager;

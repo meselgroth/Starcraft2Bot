@@ -11,23 +11,23 @@ namespace Api.Controllers
     public class StartController : ControllerBase
     {
         private readonly IWebSocketWrapper _webSocketWrapper;
-        private readonly GameStarter gameStarter;
-        private readonly IGame game;
+        private readonly Game _game;
+        private readonly GameStarter _gameStarter;
 
-        public StartController(IWebSocketWrapper webSocketWrapper, GameStarter gameStarter, IGame game)
+        public StartController(IWebSocketWrapper webSocketWrapper, GameStarter gameStarter, Game game)
         {
             _webSocketWrapper = webSocketWrapper;
-            this.gameStarter = gameStarter;
-            this.game = game;
+            _game = game;
+            _gameStarter = gameStarter;
         }
         public async Task<OkResult> Index()
         {
             await _webSocketWrapper.ConnectWebSocket();
 
-            await gameStarter.CreateGame();
-            await gameStarter.JoinGame(Race.Terran);
+            await _gameStarter.CreateGame();
+            await _gameStarter.JoinGame(Race.Terran);
 
-            _ = game.Run();
+            _ = _game.Run();
 
             return Ok();
         }

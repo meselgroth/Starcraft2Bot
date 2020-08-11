@@ -30,7 +30,7 @@ namespace Api
             services.AddSingleton<IBuildingManager, BuildingManager>();
             services.AddSingleton<IWorkerManager, WorkerManager>();
             services.AddSingleton<IBuildQueue, BuildQueue>();
-            services.AddSingleton<IGame, Game>();
+            services.AddSingleton<Game>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

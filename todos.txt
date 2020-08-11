@@ -1,0 +1,22 @@
+Easy dev startup (start Sc2, Api & Frontend)
+start-sc2Exe looks for latest folder
+
+Frontend
+ - button to start/restart Sc2, start/restart game
+
+Goal
+Bot
+	1 base marine push
+	Micro to defend drone attack
+ServantBot
+	Choose when to attack
+	
+Sc2Bot
+ - mem stream/efficient byte size
+ - todos comments
+ - build queue test
+ - gameData: only need ability id, put this in a central place/gameInfo
+ - gameInfo in central source, or build map at start of run and store centrally
+
+
+Find bot forum for devs

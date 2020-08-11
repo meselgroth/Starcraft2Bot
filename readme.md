@@ -5,9 +5,13 @@ Uses Grpc.Tools to auto generate c# gRPC classes and connects over websocket sen
 Proto files are downloaded from https://github.com/Blizzard/s2client-proto/tree/master/s2clientprotocol
 A future improvement would be a git link to ensure latest are always used.
 
-Api Project provides access to Hivemind data (intel and aggregated info).s
+## Api
+Api Project provides access to Hivemind data (intel and aggregated info). [Api folder](/Api/)
 
-# Object Model
+## App
+App (frontend) displays api data. [App folder](/App/)
+
+# HiveMind Object Model
 ## Worker manager
 Build workers until 85
 
