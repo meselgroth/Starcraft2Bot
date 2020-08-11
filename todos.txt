@@ -3,6 +3,10 @@ start-sc2Exe looks for latest folder
 
 Frontend
  - button to start/restart Sc2, start/restart game
+ - display map bitmaps
+
+API
+ - [DONE] Restart game (api/start 2nd call doesnt crash but starts new 2player game)
 
 Goal
 Bot

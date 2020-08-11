@@ -18,6 +18,11 @@ namespace HiveMind
 
         public async Task ConnectWebSocket()
         {
+            if (_clientSocket.State == WebSocketState.Open)
+            {
+                Console.WriteLine("Websocket already open");
+                return;
+            }
             Console.WriteLine("Connecting to port 5678");
             await _clientSocket.ConnectAsync(new Uri("ws://127.0.0.1:5678/sc2api"), CancellationToken.None);
             Console.WriteLine("Connected");
@@ -28,7 +33,7 @@ namespace HiveMind
             var sendBuf = new byte[1024 * 1024];
             var outStream = new CodedOutputStream(sendBuf);
             request.WriteTo(outStream);
-            
+
             await _clientSocket.SendAsync(new ArraySegment<byte>(sendBuf, 0, (int)outStream.Position),
                 WebSocketMessageType.Binary, true, cancellationToken);
         }
@@ -36,7 +41,7 @@ namespace HiveMind
         public async Task<WebSocketReceiveResult> ReceiveAsync(ArraySegment<byte> arraySegment,
             CancellationToken cancellationToken)
         {
-                return await _clientSocket.ReceiveAsync(arraySegment, cancellationToken);
+            return await _clientSocket.ReceiveAsync(arraySegment, cancellationToken);
 
         }
     }

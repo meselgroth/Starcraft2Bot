@@ -12,6 +12,12 @@ Api Project provides access to Hivemind data (intel and aggregated info). [Api f
 App (frontend) displays api data. [App folder](/App/)
 
 # HiveMind Object Model
+## Game
+Game.cs is global singleton process
+- Runs websocket threads
+- Stores global data in static variables
+- Orchestrates managers/queues
+
 ## Worker manager
 Build workers until 85
 
@@ -24,9 +30,6 @@ Send a request
 
 ## Game starter
 Create game from map, as players, join game
-
-## Game
-Orchestrate managers/queues
 
 ## Build queue
 Prioritised list of things to build while waiting for resources

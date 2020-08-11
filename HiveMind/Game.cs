@@ -14,6 +14,8 @@ namespace HiveMind
         public static ResponseData ResponseData;
         public static ResponseGameInfo ResponseGameInfo;
 
+        public static Task Task { get; set; }
+
         public Game(IConnectionService connectionService,
             IWorkerManager workerManager, IBuildQueue buildQueue)
         {
@@ -28,7 +30,7 @@ namespace HiveMind
             await RequestGameData();
 
             var receiverTask = Receiver();
-            while (_surrender != true)
+            while (!_surrender)
             {
                 await _connectionService.SendRequestAsync(new Request { Observation = new RequestObservation() });
                 await Task.Delay(500);

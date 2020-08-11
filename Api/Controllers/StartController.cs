@@ -27,7 +27,8 @@ namespace Api.Controllers
             await _gameStarter.CreateGame();
             await _gameStarter.JoinGame(Race.Terran);
 
-            _ = _game.Run();
+            if (Game.Task == null || Game.Task.Status == TaskStatus.RanToCompletion)
+                Game.Task = _game.Run();
 
             return Ok();
         }
