@@ -3,16 +3,16 @@ export class Sc2Service {
     try {
       let response = await fetch('/api/bitmap');
       if (response.ok) {
-        return await response.text();
+        return await response.blob();
       }
       return `Error response[${response.status}]: ${response.statusText}`;
     } catch (error) {
       return `${error.name}: ${error.message}`;
     }
   }
-  async getObservation() {
+  async getJson(endpoint) {
     try {
-      let response = await fetch('/response.json');
+      let response = await fetch('api/' + endpoint);
       if (response.ok) {
         return await response.json();
       }

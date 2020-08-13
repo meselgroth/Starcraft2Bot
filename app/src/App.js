@@ -8,17 +8,21 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      observation: null,
+      observation: {},
+      gameplay: {},
+      gameinfo: {},
       visibility: null
     };
   }
 
   async componentDidMount(){
     let service = new Sc2Service();
-    const observation = (await service.getObservation()).observation.observation;
+    const observation = (await service.getJson('rawdata/observation')).observation;
 
     this.setState({
       observation: observation,
+      gameplay: await service.getJson('rawdata/gameplay'),
+      gameinfo: await service.getJson('rawdata/gameinfo'),
       visibility: await service.getBitmap()
     });
   }  
@@ -30,7 +34,7 @@ class App extends Component {
           HiveMind
       </header>
         <BitmapDisplay src={this.state.visibility} />
-        <RawData rawData={this.state.observation} />
+        <RawData observation={this.state.observation} gameplay={this.state.gameplay} gameinfo={this.state.gameinfo} />
       </div>
     );
   }
