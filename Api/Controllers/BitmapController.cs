@@ -13,64 +13,31 @@ namespace Api.Controllers
     [Route("api/[controller]")]
     public class BitmapController : ControllerBase
     {
-
-        [HttpGet]
-        public FileContentResult Get()
+        [Route("[action]")]
+        public FileContentResult PlacementGrid()
         {
             return File(AddHeader(Game.ResponseGameInfo.StartRaw.PlacementGrid), "image/bmp", "bitmap.bmp");
         }
 
         [Route("[action]")]
-        public string ImageData()
+        public ImageData PlacementGridRaw()
         {
-            var byteData = Game.ResponseGameInfo.StartRaw.PlacementGrid.ToByteArray();
-            var sb = new StringBuilder(byteData.Length);
-            for (int i = 0; i < byteData.Length; i++)
-            {
-                sb.Append(byteData[i]);
-                sb.Append(" ");
-            }
-            return sb.ToString();
+            return Game.ResponseGameInfo.StartRaw.PlacementGrid;
         }
 
         [Route("[action]")]
-        public async Task<FileContentResult> MonochromeBmp()
+        public FileContentResult PathingGrid()
         {
-            var byteData = await Sys.File.ReadAllBytesAsync("Monochrome100x100.bmp");
-            var bmpBytes = byteData[62..byteData.Length];
-            var newBmp = AddHeader(bmpBytes, bmpBytes.Length, 100, 100);
-            return File(newBmp, "image/bmp", "mono.bmp");
+            return File(AddHeader(Game.ResponseGameInfo.StartRaw.PathingGrid), "image/bmp", "bitmap.bmp");
         }
 
         [Route("[action]")]
-        public async Task<string> MonochromeBits()
+        public RectangleI PlayableArea()
         {
-            var byteData = await Sys.File.ReadAllBytesAsync("Monochrome100x100.bmp");
-            var sb = new StringBuilder(byteData.Length);
-            for (int i = 0; i < byteData.Length; i++)
-            {
-                sb.Append(byteData[i]);
-                sb.Append(" ");
-            }
-            return sb.ToString();
+            return Game.ResponseGameInfo.StartRaw.PlayableArea;
         }
 
-        [Route("[action]")]
-        public async Task<string> MonochromeBitsHeader()
-        {
-            var byteData = await Sys.File.ReadAllBytesAsync("Monochrome100x100.bmp");
-            var bmpBytes = byteData[62..byteData.Length];
-            var newBmp = AddHeader(bmpBytes, byteData.Length - 62, 100, 100);
-            var sb = new StringBuilder(newBmp.Length);
-            for (int i = 0; i < newBmp.Length; i++)
-            {
-                sb.Append(newBmp[i]);
-                sb.Append(" ");
-            }
-            return sb.ToString();
-        }
-
-        public byte[] AddHeader(ImageData imageData)
+        private byte[] AddHeader(ImageData imageData)
         {
             var pixelData = imageData.Data.ToByteArray();
 

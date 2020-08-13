@@ -10,7 +10,7 @@ namespace HiveMind
         private readonly IWorkerManager _workerManager;
         private readonly IBuildQueue _buildQueue;
         private bool _surrender;
-        private ResponseObservation _responseObservation;
+        public static ResponseObservation ResponseObservation;
         public static ResponseData ResponseData;
         public static ResponseGameInfo ResponseGameInfo;
 
@@ -65,9 +65,9 @@ namespace HiveMind
                 response = await _connectionService.ReceiveRequestAsync();
                 if (response.HasObservation)
                 {
-                    _responseObservation = response.Observation;
-                    await _workerManager.Manage(_responseObservation.Observation);
-                    await _buildQueue.Act(_responseObservation.Observation);
+                    ResponseObservation = response.Observation;
+                    await _workerManager.Manage(ResponseObservation.Observation);
+                    await _buildQueue.Act(ResponseObservation.Observation);
                 }
                 if (response.HasData)
                 {
