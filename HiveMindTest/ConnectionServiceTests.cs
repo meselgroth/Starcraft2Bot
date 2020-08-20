@@ -60,14 +60,14 @@ namespace HiveMindTest
                 .ReturnsAsync((ArraySegment<byte> arraySegment, CancellationToken token) =>
                 {
                     // This method will be called at least twice
-                    var i = 0;
-                    var overallIndex = i + arraySegment.Offset;
+                    int i;
+                    var overallIndex = arraySegment.Offset;
 
                     // Write to the arraySegment starting from given offset
                     for (i = 0; i < arraySegment.Count && overallIndex < gRpcBigPayload.Length; i++)
                     {
-                        overallIndex = i + arraySegment.Offset;
                         arraySegment[i] = gRpcBigPayload[overallIndex];
+                        overallIndex++;
                     }
 
                     // If all of gRpcBigPayload is sent, endOfMessage=true
