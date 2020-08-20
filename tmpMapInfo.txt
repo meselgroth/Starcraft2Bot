@@ -1,0 +1,7 @@
+Acropolis positions
+worker:21.3125,130.18481 left corner
+worker:21.367188,143.9165 top corner
+worker:40.087402,124.41431 by top left ramp
+worker:39.639893,122.97388 on top left ramp
+worker:39.01367,119.478516 on bottom right ramp
+worker:38.720703,117.6875 by bottom right ramp

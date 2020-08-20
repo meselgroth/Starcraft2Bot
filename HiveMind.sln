@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 		start-Sc2Exe.ps1 = start-Sc2Exe.ps1
+		tmpMapInfo.txt = tmpMapInfo.txt
+		todos.txt = todos.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{DD3D26B7-1F35-4323-AC3E-0D73DA9D3C9A}"

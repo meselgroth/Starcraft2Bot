@@ -6,6 +6,13 @@ These docs are not yet complete!
 ## 1 Websockets
 To control Sc2, Blizzard have built an API using gRPC over Websockets. Let's get comfortable with Websockets first.
 
+### Make ReceiveMessageAsync more efficient
+https://stackoverflow.com/a/41926694/2235675
+
+Use smaller (more typical) buffer (byte array) size for receiving message.
+Grow buffer size if necessary.
+Complete test for when message size goes over original buffer.
+
 ## 2 gRPC
 Protobuf files
 

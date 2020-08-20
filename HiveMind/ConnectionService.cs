@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace HiveMind
             //cancellationSource.CancelAfter(5000);
 
             var bytes = await ReceiveMessageAsync(cancellationSource.Token);
-            
+
             var response = Response.Parser.ParseFrom(bytes);
             //Console.WriteLine($"Received response, Case:{response.ResponseCase}, Status{response.Status}");
 
@@ -46,21 +47,31 @@ namespace HiveMind
 
         public async Task<byte[]> ReceiveMessageAsync(CancellationToken cancellationToken)
         {
-            var bytes = new byte[1024 * 1024];
+            var bytes = new byte[UInt16.MaxValue]; // Max size of Sc2Api message is unknown, however size of efficient websocket fits in 2 bytes https://stackoverflow.com/a/14119129/2235675
             var finished = false;
             var index = 0;
             while (!finished)
             {
-                var length = bytes.Length - index;
-                var result = await _webSocketWrapper.ReceiveAsync(new ArraySegment<byte>(bytes, index, length), cancellationToken);
+                var result = await _webSocketWrapper.ReceiveAsync(new ArraySegment<byte>(bytes, index, UInt16.MaxValue), cancellationToken);
                 if (result.MessageType != WebSocketMessageType.Binary)
                     throw new Exception("Expected binary message type.");
 
-                index += result.Count;
                 finished = result.EndOfMessage;
+                if (!finished)
+                {
+                    bytes = IncreaseByteArraySize(bytes);
+                }
+                index += result.Count;
             }
+            return bytes[0..index];
+        }
 
-            return new ArraySegment<byte>(bytes, 0, index).ToArray();
+        private static byte[] IncreaseByteArraySize(byte[] bytes)
+        {
+            var temp = bytes;
+            bytes = new byte[bytes.Length + UInt16.MaxValue];
+            Array.Copy(temp, 0, bytes, 0, temp.Length);
+            return bytes;
         }
     }
 }

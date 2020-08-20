@@ -42,7 +42,6 @@ namespace HiveMind
             CancellationToken cancellationToken)
         {
             return await _clientSocket.ReceiveAsync(arraySegment, cancellationToken);
-
         }
     }
 }

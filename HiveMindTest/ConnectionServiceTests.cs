@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.IO;
 using System.Net.WebSockets;
 using System.Threading;
@@ -50,19 +51,27 @@ namespace HiveMindTest
         [Test]
         public async Task ReceiveMessageAsync2SocketResponses()
         {
-            var firstCall = true;
+            // Double the size of the payload
+            var gRpcBigPayload = new byte[_gRpcReceivedBytes.Length * 2];
+            Array.Copy(_gRpcReceivedBytes, 0, gRpcBigPayload, _gRpcReceivedBytes.Length, _gRpcReceivedBytes.Length);
+
             var webSocketMock = new Mock<IWebSocketWrapper>();
             webSocketMock.Setup(m => m.ReceiveAsync(It.IsAny<ArraySegment<byte>>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync((ArraySegment<byte> arraySegment, CancellationToken token) =>
                 {
-                    // Write a portion of each byte to ArraySegment parameter
-                    var length = firstCall ? 2000 : _gRpcReceivedBytes.Length;
-                    for (var i = arraySegment.Offset; i < length; i++)
+                    // This method will be called at least twice
+                    var i = 0;
+                    var overallIndex = i + arraySegment.Offset;
+
+                    // Write to the arraySegment starting from given offset
+                    for (i = 0; i < arraySegment.Count && overallIndex < gRpcBigPayload.Length; i++)
                     {
-                        arraySegment[i-arraySegment.Offset] = _gRpcReceivedBytes[i];
+                        overallIndex = i + arraySegment.Offset;
+                        arraySegment[i] = gRpcBigPayload[overallIndex];
                     }
-                    var retObj = new WebSocketReceiveResult(length, WebSocketMessageType.Binary, !firstCall);
-                    firstCall = false;
+
+                    // If all of gRpcBigPayload is sent, endOfMessage=true
+                    var retObj = new WebSocketReceiveResult(i, WebSocketMessageType.Binary, overallIndex >= gRpcBigPayload.Length);
                     return retObj;
                 });
 
@@ -70,7 +79,9 @@ namespace HiveMindTest
 
             var actualBytes = await sut.ReceiveMessageAsync(CancellationToken.None);
 
-            actualBytes.Should().BeEquivalentTo(_gRpcReceivedBytes);
+            actualBytes.Should().BeEquivalentTo(gRpcBigPayload);
+            webSocketMock.Verify(m => m.ReceiveAsync(It.IsAny<ArraySegment<byte>>(), It.IsAny<CancellationToken>()), Times.AtLeast(2),
+                "ReceiveAsync should be called at least twice, to satisfy test. Ensure test payload _gRpcReceivedBytes is bigger than buffer used in ReceiveAsync");
         }
     }
 }

@@ -26,9 +26,10 @@ namespace HiveMindTest
             await Task.Delay(5000);
 
             await connectionService.SendRequestAsync(new Request { Observation = new RequestObservation() });
-            var bytes = await connectionService.ReceiveMessageAsync(CancellationToken.None);
+            //var bytes = await connectionService.ReceiveMessageAsync(CancellationToken.None);
+            var response = await connectionService.ReceiveRequestAsync();
 
-            File.WriteAllBytes("../../../byteDumpObservationMsg", bytes);
+            File.WriteAllText("../../../response.json", response.ToString());
         }
     }
 }
