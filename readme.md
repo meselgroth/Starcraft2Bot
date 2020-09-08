@@ -9,7 +9,7 @@ A future improvement would be a git link to ensure latest are always used.
 Api Project provides access to Hivemind data (intel and aggregated info). [Api folder](/Api/)
 
 ## App
-App (frontend) displays api data. [App folder](/App/)
+App (frontend) displays api data. [App folder](/app/)
 
 # HiveMind Object Model
 ## Game
