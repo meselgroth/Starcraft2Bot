@@ -1,4 +1,4 @@
-# Building a StarCraft 2 Bot Guide
+# StarCraft 2 Bot Guide
 Here I will describe my learnings as I build an automated player of the PC game StarCraft 2 (aka Sc2).
 
 I want to take apart the technology required and understand each building block.

@@ -1,4 +1,4 @@
-## 1 Websockets
+# Websockets
 To control Sc2, Blizzard have built an API using gRPC over Websockets. Let's get comfortable with Websockets first. [Server vs Client]
 
 I find the [MDN Javascript page for websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) an informative way to get started from the client perspective.
@@ -9,7 +9,7 @@ For the server, I prefered microsoft's version of building the [websocket server
 
 In order to play around with a C# server having multiple clients in both C# and Javascript, I built my own ASP.Net Core websocket server and a C# console app client as well as a JS snippet for the browser.
 
-### Server
+## Server
 Note the MS guide and my sandbox version put the websocket receiving on the middleware pipeline. This means every request is potentially a websocket request and gets dealt with accordingly.
 
 For simplicity, my version only deals with websocket requests:
@@ -84,7 +84,7 @@ public class SocketManager
 ```
 [Diagram]
 
-### Client
+## Client
 Console app to receive and display websocket messages, and ability to close gracefully.
 
 [Program.cs](https://github.com/meselgroth/websockets-sandbox/blob/master/csharpclient/Program.cs)
@@ -130,7 +130,7 @@ class Program
 
 [Full websockets github repo, including javascript snippet.](https://github.com/meselgroth/websockets-sandbox)
 
-### Sc2 Websockets
+## Sc2 Websockets
 For my bot, the Starcraft 2 program is the websocket server.
 When you run the game, you tell it to activate the websocket and what IP address & port the client will come from:
 `SC2_x64.exe -listen 127.0.0.1 -port 5678`
@@ -139,8 +139,8 @@ Interestingly it only accepts one websocket connection, ie. only 1 client.
 
 [Talk about chosen architecture (Read loop, Periodic send for observation, and instant send for new actions)]
 
-### Make ReceiveMessageAsync more efficient
-The example bot I was using as a reference, initialised very large byte arrays to recieve the websocket messages `var receiveBuf = new byte[1024 * 1024]`, essentially 1Gb. This is a high memory requirement, so I decided to look into it.
+## Make ReceiveMessageAsync more efficient
+The example bot [SC2-CSharpe-Starterkit](https://github.com/NikEyX/SC2-CSharpe-Starterkit) I was using as a reference, initialised very large byte arrays to recieve the websocket messages `var receiveBuf = new byte[1024 * 1024]`, essentially 1Gb. This is a high memory requirement, so I decided to look into it.
 
 A websocket message can vary in size, however this stackoverflow is a handy reference for what typical sizes "should" be: https://stackoverflow.com/a/41926694/2235675
 
