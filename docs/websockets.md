@@ -179,5 +179,5 @@ private static byte[] IncreaseByteArraySize(byte[] bytes)
 ```
 I did this in a TDD fashion, writing a test for a normal message size and a message size that goes over original buffer. I used a wrapper around the `ClientWebSocket` class to allow for it's methods to be mocked. However due to the nature of byte arrays being written to in-place (it's passed as a paramater and then written to), the test came out pretty ugly.
 Have a look at your own risk:
-https://github.com/meselgroth/Starcraft2Bot/blob/master/HiveMindTest/ConnectionServiceTests.cs
+[ConnectionServiceTests.cs](https://github.com/meselgroth/Starcraft2Bot/blob/master/HiveMindTest/ConnectionServiceTests.cs)
 
