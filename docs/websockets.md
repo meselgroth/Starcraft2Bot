@@ -1,7 +1,9 @@
 # Websockets
-To control Sc2, Blizzard have built an API using gRPC over Websockets. Let's get comfortable with Websockets first. [Server vs Client]
+To control Sc2, Blizzard have built an API using gRPC over Websockets. Let's get comfortable with Websockets first.
 
-I find the [MDN Javascript page for websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) an informative way to get started from the client perspective.
+Websockets is a communication protocol between 2 programs, one with an IP address or url called the server, the other the client that initiates the connection.
+
+I find the [MDN Javascript page for websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) an informative way to get started from a client perspective.
 
 MDN even has a page to write a [C# websocket server console app](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server) using TcpListener from the System.Net.Sockets library.
 
@@ -10,6 +12,8 @@ For the server, I prefered microsoft's version of building the [websocket server
 In order to play around with a C# server having multiple clients in both C# and Javascript, I built my own ASP.Net Core websocket server and a C# console app client as well as a JS snippet for the browser.
 
 ## Server
+If the server supports multiple connections from different clients it needs to remember these different connections.
+
 Note the MS guide and my sandbox version put the websocket receiving on the middleware pipeline. This means every request is potentially a websocket request and gets dealt with accordingly.
 
 For simplicity, my version only deals with websocket requests:
