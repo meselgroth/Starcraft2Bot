@@ -17,8 +17,10 @@ namespace HiveMind
             await gameStarter.JoinGame(Race.Terran);
 
             IConstantManager constantManager = new ConstantManager(Race.Terran);
-            var game = new Game(connectionService, new WorkerManager(connectionService, constantManager, new GameDataService()),
-                new BuildQueue(new BuildingManager(connectionService, constantManager, new GameDataService())));
+            var workerManager = new UnitBuilder(connectionService, constantManager, new GameDataService());
+            var game = new Game(connectionService, workerManager,
+                new BuildQueue(new BuildingManager(connectionService, constantManager, new GameDataService()), 
+                workerManager, new ArmyManager(connectionService, constantManager, new GameDataService())));
             await game.Run();
             Console.ReadLine();
         }

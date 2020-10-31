@@ -35,9 +35,9 @@ namespace HiveMindTest
             var gameDataServiceMock = new Mock<IGameDataService>();
             gameDataServiceMock.Setup(m => m.GetAbilityId(ConstantManager.Scv)).Returns(AbilityId);
             
-            var sut = new WorkerManager(connectionMock.Object, new ConstantManager(Race.Terran), gameDataServiceMock.Object);
+            var sut = new UnitBuilder(connectionMock.Object, new ConstantManager(Race.Terran), gameDataServiceMock.Object);
 
-            await sut.Manage(_currentObservation);
+            await sut.BuildWorkerIfEmptyQueue(_currentObservation);
 
             actualRequest.Action.Actions[0].ActionRaw.UnitCommand.AbilityId.Should().Be(AbilityId);
             actualRequest.Action.Actions[0].ActionRaw.UnitCommand.UnitTags[0].Should().Be(Tag);

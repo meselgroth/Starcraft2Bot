@@ -7,7 +7,7 @@ namespace HiveMind
     public class Game
     {
         private readonly IConnectionService _connectionService;
-        private readonly IWorkerManager _workerManager;
+        private readonly IUnitBuilder _workerManager;
         private readonly IBuildQueue _buildQueue;
         private bool _surrender;
         public static ResponseObservation ResponseObservation;
@@ -15,9 +15,10 @@ namespace HiveMind
         public static ResponseGameInfo ResponseGameInfo;
 
         public static Task Task { get; set; }
+        public static MapManager MapManager { get; set; }
 
         public Game(IConnectionService connectionService,
-            IWorkerManager workerManager, IBuildQueue buildQueue)
+            IUnitBuilder workerManager, IBuildQueue buildQueue)
         {
             _surrender = false;
             _connectionService = connectionService;
@@ -66,7 +67,11 @@ namespace HiveMind
                 if (response.HasObservation)
                 {
                     ResponseObservation = response.Observation;
-                    await _workerManager.Manage(ResponseObservation.Observation);
+                    if (MapManager == null)
+                    {
+                        MapManager = GetMapManager();
+                    }
+                    await _workerManager.BuildWorkerIfEmptyQueue(ResponseObservation.Observation);
                     await _buildQueue.Act(ResponseObservation.Observation);
                 }
                 if (response.HasData)
@@ -80,6 +85,15 @@ namespace HiveMind
 
             } while (response.Status != Status.Ended || response.Status != Status.Quit);
 
+        }
+
+        // TODO: Move to MapManagerService
+        public static MapManager GetMapManager()
+        {
+            var groundMatrix = GridConverter.ToGroundTypeMatrix(Game.ResponseGameInfo.StartRaw.PlacementGrid,
+                                    Game.ResponseGameInfo.StartRaw.PathingGrid, Game.ResponseGameInfo.StartRaw.PlayableArea);
+
+            return new MapManager(groundMatrix, Game.ResponseObservation.Observation.GetPlayerUnits(new ConstantManager(Race.Terran).BaseTypeIds)[0].Pos);
         }
     }
 }

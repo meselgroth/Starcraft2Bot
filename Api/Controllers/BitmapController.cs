@@ -3,6 +3,9 @@ using HiveMind;
 using Microsoft.AspNetCore.Mvc;
 using SC2APIProtocol;
 using System;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Sys = System.IO;
@@ -17,6 +20,24 @@ namespace Api.Controllers
         public FileContentResult PlacementGrid()
         {
             return File(AddHeader(Game.ResponseGameInfo.StartRaw.PlacementGrid), "image/bmp", "bitmap.bmp");
+        }
+
+        [Route("[action]")]
+        public FileResult PlacementGrid2()
+        {
+            var bitmap = new Bitmap(Game.ResponseGameInfo.StartRaw.PlacementGrid.Size.X,Game.ResponseGameInfo.StartRaw.PlacementGrid.Size.Y, PixelFormat.Format1bppIndexed);
+
+            //https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap.unlockbits?view=dotnet-plat-ext-3.1#System_Drawing_Bitmap_UnlockBits_System_Drawing_Imaging_BitmapData_
+
+            var bmpData = bitmap.LockBits(new Rectangle(0, 0, bitmap.Width, bitmap.Height), ImageLockMode.ReadWrite, PixelFormat.Format1bppIndexed);
+            var ptr = bmpData.Scan0;
+            var bytes = AddPadding(Game.ResponseGameInfo.StartRaw.PlacementGrid);
+            System.Runtime.InteropServices.Marshal.Copy(bytes, 0, ptr, bytes.Length);
+            bitmap.UnlockBits(bmpData);
+            
+            var stream = new MemoryStream();
+            bitmap.Save(stream,ImageFormat.Bmp);
+            return File(stream, "image/bmp", "bitmap.bmp");
         }
 
         [Route("[action]")]
@@ -39,6 +60,15 @@ namespace Api.Controllers
 
         private byte[] AddHeader(ImageData imageData)
         {
+            var paddedData = AddPadding(imageData);
+
+            return AddHeader(paddedData, paddedData.Length, imageData.Size.X, imageData.Size.Y);
+        }
+
+
+        //TODO: Check orientation of source bits ((0,0) is bottom left)
+        private static byte[] AddPadding(ImageData imageData)
+        {
             var pixelData = imageData.Data.ToByteArray();
 
             // Bitmaps: Each row in the Pixel array is padded to a multiple of 4 bytes in size
@@ -56,7 +86,7 @@ namespace Api.Controllers
                 newByteIndex += numOfPaddedBytes;
             }
 
-            return AddHeader(paddedData, paddedData.Length, imageData.Size.X, imageData.Size.Y);
+            return paddedData;
         }
 
         // https://stackoverflow.com/questions/11452246/add-a-bitmap-header-to-a-byte-array-then-create-a-bitmap-file

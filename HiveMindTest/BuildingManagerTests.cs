@@ -1,5 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System.Text;
+using System.Threading.Tasks;
 using FluentAssertions;
+using Google.Protobuf;
 using HiveMind;
 using Moq;
 using NUnit.Framework;
@@ -23,6 +25,25 @@ namespace HiveMindTest
                 PlayerCommon = new PlayerCommon { FoodWorkers = 0 },
                 RawData = new ObservationRaw { Units = { new Unit { UnitType = ConstantManager.Scv, Alliance = Alliance.Self, BuildProgress = 1, Tag = Tag, Pos = new Point { X = 20, Y = 25 } } } }
             };
+            Game.ResponseGameInfo = new ResponseGameInfo { StartRaw = new StartRaw() };
+            Game.ResponseGameInfo.StartRaw.PlacementGrid = new ImageData
+            {
+                Data = ByteString.CopyFrom(new byte[] { 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255 }), // Each bit is 1
+                Size = new Size2DI { X = 10, Y = 10 }
+            };
+            Game.ResponseGameInfo.StartRaw.PathingGrid = new ImageData
+            {
+                Data = ByteString.CopyFrom(new byte[] { 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255 }), // Each bit is 1
+                Size = new Size2DI { X = 10, Y = 10 }
+            };
+            Game.ResponseGameInfo.StartRaw.PlayableArea = new RectangleI
+            {
+                P0 = new PointI { X = 1, Y = 1 },
+                P1 = new PointI { X = 9, Y = 9 }
+            };
+
+            Game.MapManager = new MapManager(GridConverter.ToGroundTypeMatrix(Game.ResponseGameInfo.StartRaw.PlacementGrid, Game.ResponseGameInfo.StartRaw.PathingGrid, Game.ResponseGameInfo.StartRaw.PlayableArea)
+                , new Point { X = 3, Y = 7, Z = 0 }); // Main Base is top left
         }
 
         [Test]
@@ -35,15 +56,15 @@ namespace HiveMindTest
 
             var gameDataServiceMock = new Mock<IGameDataService>();
             gameDataServiceMock.Setup(m => m.GetAbilityId(ConstantManager.SupplyDepot)).Returns(AbilityId);
-            
+
             var sut = new BuildingManager(connectionMock.Object, new ConstantManager(Race.Terran), gameDataServiceMock.Object);
 
-            await sut.Build(_currentObservation, ConstantManager.SupplyDepot, new ResponseGameInfo());
+            await sut.Build(_currentObservation, ConstantManager.SupplyDepot, 2, 2);
 
-            actualRequest.Action.Actions[0].ActionRaw.UnitCommand.AbilityId.Should().Be(AbilityId);
-            actualRequest.Action.Actions[0].ActionRaw.UnitCommand.UnitTags[0].Should().Be(Tag);
-            actualRequest.Action.Actions[0].ActionRaw.UnitCommand.TargetWorldSpacePos.X.Should().BeInRange(0, 100);
-            actualRequest.Action.Actions[0].ActionRaw.UnitCommand.TargetWorldSpacePos.Y.Should().BeInRange(0, 100);
+            actualRequest.Action.Actions[1].ActionRaw.UnitCommand.AbilityId.Should().Be(AbilityId);
+            actualRequest.Action.Actions[1].ActionRaw.UnitCommand.UnitTags[0].Should().Be(Tag);
+            actualRequest.Action.Actions[1].ActionRaw.UnitCommand.TargetWorldSpacePos.X.Should().Be(5.5F);
+            actualRequest.Action.Actions[1].ActionRaw.UnitCommand.TargetWorldSpacePos.Y.Should().Be(7.5F);
         }
     }
 }

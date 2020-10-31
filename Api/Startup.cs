@@ -28,7 +28,8 @@ namespace Api
             services.AddSingleton<IConstantManager>(_=>new ConstantManager(Race.Terran));
             services.AddSingleton<IGameDataService, GameDataService>();
             services.AddSingleton<IBuildingManager, BuildingManager>();
-            services.AddSingleton<IWorkerManager, WorkerManager>();
+            services.AddSingleton<IUnitBuilder, UnitBuilder>();
+            services.AddSingleton<IArmyManager, ArmyManager>();
             services.AddSingleton<IBuildQueue, BuildQueue>();
             services.AddSingleton<Game>();
         }
