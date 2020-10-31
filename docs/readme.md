@@ -7,4 +7,4 @@ This is not a tutorial on how exactly to call the Starcraft 2 API to achieve a q
 
 Note, these docs are not yet complete.
 
-Next: [Websocktets](/websockets.md)
+Next: [Websocktets](websockets.md)

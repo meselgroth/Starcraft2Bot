@@ -11,7 +11,7 @@ Api Project provides access to Hivemind data (intel and aggregated info). [Api f
 ## App
 App (frontend) displays api data. [App folder](/app/)
 
-# HiveMind Object Model
+# Designing the Bot Object Model
 ## Game
 Game.cs is global singleton process
 - Runs websocket threads
@@ -40,7 +40,7 @@ Prioritised list of things to build while waiting for resources
 	* Expansions
 
 
-### Reprio
+### Repriotise (later versions)
 	* Attack/rush
 	* Enemy intel
 
@@ -55,6 +55,8 @@ Each plateau has a grid system, each block on grid is either
  - enemy
 Has a ramp/exit location
 
+On MVP development this ^^ seemed over engineered, so the map was kept as a single 2D array.
+
 ## Army manager ( defence positions / attack positions)
 ## Scout manager
 ## Intel manager
@@ -65,7 +67,7 @@ Has a ramp/exit location
 Build queue: SCV/depots, rax, marines
 SCV manager, building manager, army manager
 
-## RC1
+## RC1 <-- This is Complete!
 Attack move at army count
 
 ## Rc2
@@ -80,5 +82,7 @@ Each manager is on its own loop and decision making process with Central over ar
 Will be easier to add machine learning (in small decision making and goal)
 Can start with human input on goals
 
-# Investigate
-DebugDraw to highlight things in the game for debugging (where the bot tried to do something)
+The 2nd option seemed best. The current version loops every half second, receives new intel (game info) and triggers each manager. If a manager requires an action it is queued in the Build Queue.
+
+# Useful
+DebugDraw can highlight things in the game for debugging (where the bot tried to do something). It appears only one drawing is displayed and each new one clears the previous.

@@ -1,5 +1,6 @@
 Easy dev startup (start Sc2, Api & Frontend)
 start-sc2Exe looks for latest folder
+Test on file change (watch)
 
 Frontend
  - button to start/restart Sc2, start/restart game
@@ -8,19 +9,27 @@ Frontend
 API
  - [DONE] Restart game (api/start 2nd call doesnt crash but starts new 2player game)
 
-Goal
-Bot
-	1 base marine push
-	Micro to defend drone attack
-ServantBot
-	Choose when to attack
-	
-Sc2Bot
- - mem stream/efficient byte size
+HiveMind
+ - Build marines
+ - AtackMove
+
+MapManager
+ - don't go off edge of main base
+Queue
+ - Make queue smarter to only trigger next item if enough resources
+General
+ - [DONE] websocket efficient byte size
  - todos comments
  - build queue test
  - gameData: only need ability id, put this in a central place/gameInfo
  - gameInfo in central source, or build map at start of run and store centrally
 
 
+GOALS
+Mvp: Beat Easy AI with 1 base marine push
+Bot	
+	Micro to defend drone attack
+ServantBot
+	Manual choice when to attack (frontend/api)
+	
 Find bot forum for devs
