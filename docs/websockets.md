@@ -185,3 +185,4 @@ I did this in a TDD fashion, writing a test for a normal message size and a test
 Have a look at your own risk:
 [ConnectionServiceTests.cs](https://github.com/meselgroth/Starcraft2Bot/blob/master/HiveMindTest/ConnectionServiceTests.cs)
 
+[Would love feedback or comments!](http://meselgroth.github.io/contact.html)
