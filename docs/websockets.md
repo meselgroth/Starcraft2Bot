@@ -135,3 +135,4 @@ class Program
 [Full websockets github repo, including javascript snippet.](https://github.com/meselgroth/websockets-sandbox)
 
 Next: [Sc2 Websocket Efficiencies](websockets_sc2.md)
+[Would love feedback or comments!](https://github.com/meselgroth/Starcraft2Bot/issues/8)
