@@ -1,6 +1,6 @@
 # Processing Bitmaps
 [DRAFT]
-The SC2 Api returns bitmaps of what the map looks like. To understand how to process this, I looked at an existing example [SC2-CSharpe-Starterkit](https://github.com/NikEyX/SC2-CSharpe-Starterkit). Essentially the critical method this one with a confusing looking bitwise operation.
+The SC2 Api returns bitmaps of what the map looks like. To understand how to process this, I looked at an existing example [SC2-CSharpe-Starterkit](https://github.com/NikEyX/SC2-CSharpe-Starterkit). Essentially the critical method is this one with a confusing looking bitwise operation.
 
 ```csharp
 public static int GetDataValueBit(ImageData data, int x, int y)
