@@ -85,4 +85,4 @@ Can start with human input on goals
 The 2nd option seemed best. The current version loops every half second, receives new intel (game info) and triggers each manager. If a manager requires an action it is queued in the Build Queue.
 
 # Useful
-DebugDraw can highlight things in the game for debugging (where the bot tried to do something). It appears only one drawing is displayed and each new one clears the previous.
+DebugDraw can highlight things in the game for debugging (where the bot tried to do something). It appears only the latest DebugDraw message is displayed and each new one clears the previous. To add multiple drawings, they must be in the same message.
