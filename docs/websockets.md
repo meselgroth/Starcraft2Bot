@@ -1,5 +1,5 @@
 # Websockets (general)
-To control Sc2, Blizzard have built an API using gRPC over Websockets. Let's get comfortable with Websockets first.
+To control Sc2, Blizzard have built an API using gRPC over Websockets. Let's get comfortable with Websockets first, building a dummy project, separate from the StarCraft bot. [Full repo here.](https://github.com/meselgroth/websockets-sandbox)
 
 Websockets is a communication protocol between 2 programs, one with an IP address or url called the server, the other the client that initiates the connection.
 
@@ -14,9 +14,7 @@ In order to play around with a C# server having multiple clients in both C# and 
 ## Server
 If the server supports multiple connections from different clients it needs to remember these different connections.
 
-Note the MS guide and my sandbox version put the websocket receiving on the middleware pipeline. This means every request is potentially a websocket request and gets dealt with accordingly.
-
-For simplicity, my version only deals with websocket requests:
+Note the MS guide and my sandbox version put the websocket receiving on the middleware pipeline. This means every request is potentially a websocket request and gets dealt with accordingly. For simplicity, my middleware only deals with websocket requests:
 
 [Startup.cs](https://github.com/meselgroth/websockets-sandbox/blob/master/server/Startup.cs)
 ```csharp
@@ -132,7 +130,7 @@ class Program
 }
 ```
 
-[Full websockets github repo, including javascript snippet.](https://github.com/meselgroth/websockets-sandbox)
+[Full websockets repo, including javascript snippet.](https://github.com/meselgroth/websockets-sandbox)
 
 Next: [Sc2 Websocket Efficiencies](websockets_sc2.md)
 
