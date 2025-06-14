@@ -5,7 +5,7 @@ When you run the game, you tell it to activate the websocket and what IP address
 
 Interestingly it only accepts one websocket connection, ie. only 1 client.
 
-[Talk about chosen architecture (Read loop, Periodic send for observation, and instant send for new actions)]
+Now that we have a WebSocket connection established, the next step is understanding how data is structured for communication. The SC2 API uses Protocol Buffers for this purpose. See [gRPC and Protocol Buffers](grpc_and_protobuf.md) for details on the message format and communication patterns.
 
 ## Make ReceiveMessageAsync more efficient
 The example bot [SimonPrins/ExampleBot](https://github.com/SimonPrins/ExampleBot) I was using as a reference, initialised a byte array of size 1Mb to recieve the websocket messages `var receiveBuf = new byte[1024 * 1024]`. This is slightly inefficient, so I decided to look into it.
@@ -48,5 +48,7 @@ private static byte[] IncreaseByteArraySize(byte[] bytes)
 I did this in a TDD fashion, writing a test for a normal message size and a test for a message size that goes over original buffer. I used a wrapper around the `ClientWebSocket` class to allow for it's methods to be mocked. However due to the nature of byte arrays being written to in-place (it's passed as a paramater and then written to), the test came out pretty ugly.
 Have a look at your own risk:
 [ConnectionServiceTests.cs](https://github.com/meselgroth/Starcraft2Bot/blob/master/HiveMindTest/ConnectionServiceTests.cs)
+
+Next: [gRPC and Protocol Buffers](grpc_and_protobuf.md)
 
 [I would love feedback or comments!](https://github.com/meselgroth/Starcraft2Bot/issues/8)
