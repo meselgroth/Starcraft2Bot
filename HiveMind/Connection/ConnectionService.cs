@@ -47,7 +47,7 @@ namespace HiveMind
 
         public async Task<byte[]> ReceiveMessageAsync(CancellationToken cancellationToken)
         {
-            var bytes = new byte[UInt16.MaxValue]; // Max size of Sc2Api message is unknown, however size of efficient websocket fits in 2 bytes https://stackoverflow.com/a/14119129/2235675
+            var bytes = new byte[UInt16.MaxValue]; // Max size of Sc2Api message is unknown, however size of efficient websocket fits in 2 bytes https://stackoverflow.com/a/14119129/2235675 which results in 65535 possible values
             var finished = false;
             var index = 0;
             while (!finished)
