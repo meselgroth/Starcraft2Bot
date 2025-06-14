@@ -1,5 +1,5 @@
 # Sc2 Websocket Efficiencies
-For my bot, the Starcraft 2 program is the websocket server.
+For my bot, the Starcraft 2 game is the websocket server.
 When you run the game, you tell it to activate the websocket and what IP address & port the client will come from:
 `SC2_x64.exe -listen 127.0.0.1 -port 5678`
 
